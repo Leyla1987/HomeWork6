@@ -22,8 +22,8 @@ public class Main {
             myArray[i] = random.nextInt(100_000) + 100_000;
             if (max < myArray[i]) {
                 max = myArray[i];
-            } else if (max > myArray[i]) {
-                max = myArray[i];
+            } else if (min > myArray[i]) {
+                min = myArray[i];
             }
         }
         System.out.println("Минимальная сумма трат за день составила " + min + " рублей. \n " +
